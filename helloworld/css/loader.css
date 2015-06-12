@@ -1,0 +1,20 @@
+@font-face {
+    font-family: gr-book;
+    src: url(../font/gotham-rounded-book.otf);
+}
+@font-face {
+    font-family: gr-light;
+    src: url(../font/gotham-rounded-light.otf);
+}
+@font-face {
+    font-family: gr-med;
+    src: url(../font/GothamNarrow-Medium.otf);
+}
+
+html{height:100%;}
+
+body{  height: 100%; font-family: gr-light;
+  color: white; display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: -webkit-radial-gradient(center center, ellipse cover, #7EC7A8, #0DC0A5);}
